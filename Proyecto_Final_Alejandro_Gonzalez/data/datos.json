@@ -1,0 +1,32 @@
+{
+  "cargos": [
+    "🩺 Oftalmólogo",
+    "👓 Optómetra",
+    "👩‍⚕️ Enfermero jefe",
+    "👨‍⚕️ Auxiliar de enfermería",
+    "🔧 Instrumentador",
+    "💉 Anestesiólogo",
+    "🧑‍⚕️ Médico general",
+    "💻 Digitador",
+    "📋 Admisiones",
+    "🏢 Administrativos",
+    "🧹 Servicios generales",
+    "❓ Otros"
+  ],
+  "momentos": [
+    "👐 Antes de tocar al paciente",
+    "🧼 Antes de realizar una tarea aséptica",
+    "💦 Después de contacto con fluidos",
+    "🤝 Después de contacto con el paciente",
+    "🏥 Después de contacto con el entorno del paciente"
+  ],
+  "productos": [
+    "🧴 Jabón",
+    "🍶 Alcohol",
+    "🧪 Avagard"
+  ],
+  "tecnicas": [
+    "✅ Cumple",
+    "❌ No cumple"
+  ]
+}
