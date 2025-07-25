@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador de Lavado de Manos</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/toastify-js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+<script defer src="./JS/libreria.js"></script>
+<script defer src="./JS/registros.js"></script>
+<script defer src="./JS/graficos.js"></script>
+<script defer src="./JS/script.js"></script>
+  <link rel="stylesheet" href="./Estilos/estilos.css">
+</head>
+<body>
+  <h1>Registro de Lavado de Manos</h1>
+
+  <form id="formRegistro">
+
+    <label for="cargo">Cargo:</label>
+    <select id="cargo"></select>
+
+    <label for="momento">Momento:</label>
+    <select id="momento"></select>
+
+    <label for="producto">Producto:</label>
+    <select id="producto"></select>
+
+    <label for="tecnica">Técnica:</label>
+    <select id="tecnica"></select>
+
+    <button type="submit"id="btnRegistrar">Registrar</button>
+  </form>
+  <section id="filtros">
+  <h3>🔍 Filtrar Historial por cargo:👇</h3>
+  <select id="filtroCargo">
+    <option value="">Todos</option>
+  </select>
+
+  <label for="filtroFecha">Filtrar historial por fecha:👉</label>
+  <input type="date" id="filtroFecha">
+
+  <button id="btnRestablecer">Restablecer filtros</button>
+</section>
+
+<div id="contenedor-datos">
+  <section id="historial"></section>
+
+  <div id="contenedor-grafico">
+  <h3>📊 Indicador de cumplimiento</h3>
+  <canvas id="grafico" width="400" height="200"></canvas>
+  <h3>🥧 Indicador por cargo </h3>
+  <canvas id="graficoTorta" width="400" height="200"></canvas>
+  <h3>👐 Indicador por momentos </h3>
+  <canvas id="graficoMomentos" width="400" height="250"></canvas>
+  <h3>👐 Indicador por producto utilizado </h3>
+  <canvas id="graficoProductos" width="400" height="400"></canvas>
+
+</div>
+</div>
+
+
+</body>
+</html>
