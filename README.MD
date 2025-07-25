@@ -36,8 +36,8 @@ JSON: Datos externos cargados dinámicamente con `fetch()`
 ```
 ProyectoFinal_TuApellido/
 │
-├── index.html             # Página principal
-├── Estilos             # Estilos del proyecto
+├── index.html            
+├── Estilos             
     └──estilos.css
 ├── JS                
     └──script.js                  
@@ -72,7 +72,7 @@ ProyectoFinal_TuApellido/
 
 ## 🔐 Autor
 
-Desarrollado por: **Breyan Alerjandro Gonzalez Gutierrez**  
+Desarrollado por: **Brayan Alerjandro Gonzalez Gutierrez**  
 Fecha de entrega: **25/07/2025**  
 Formación: Curso de JavaScript Coder house (Proyecto Final)
 
